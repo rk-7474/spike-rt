@@ -9,7 +9,7 @@ Unityについては[external/Unity/README.md](https://github.com/ThrowTheSwitch
 アプリケーションと同様にビルドできる．
 [DevelopApp.md](DevelopApp.md) を参考にビルドしてもよいが，スクリプト[scripts/build-test.sh](../../scripts/build-test.sh)によりビルド作業を簡略化できる．
 ```bash
-./scripts/build-test.sh
+. /scripts/build-test.sh
 ```
 
 ## PUP デバイスの接続

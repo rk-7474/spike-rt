@@ -7,13 +7,13 @@ See [external/Unity/README.md](https://github.com/ThrowTheSwitch/Unity/tree/0b89
 
 ## Building the test
 You can build the test in the same way as an application.
-You can build it by referring to [DevelopApp.md](DevelopApp.md), or by using the script [scripts/build-test.sh](... /...). /... /scripts/build-test.sh) to simplify the build process.
+You can build it by referring to [DevelopApp.md](DevelopApp.md), or by using the script [scripts/build-test.sh](../../scripts/build-test.sh) to simplify the build process.
 ```bash
-. /scripts/build-test.sh
+./scripts/build-test.sh
 ```
 
 ## Connect PUP devices
-[test/test_config.h](... /... //test/test_config.h) to connect the PUP device.  
+[test/test_config.h](../..//test/test_config.h) to connect the PUP device.  
 However, it is possible to confirm the operation by seeing `a` on the LED matrix display without connecting the PUP device.
 
 ## Writing
