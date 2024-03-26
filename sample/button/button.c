@@ -22,7 +22,7 @@ static hub_button_t wait_for_hub_buttons(hub_button_t buttons_to_watch)
 {
   hub_button_t buttons = 0;
   hub_button_t pressed;
-  while (hub_buttons_pressed(buttons_to_watch) == 0) dly_tsk(10000);
+  while (hub_buttons_pressed(buttons_tsto_watch) == 0) dly_tsk(10000);
   while (pressed = hub_buttons_pressed(buttons_to_watch), pressed != 0) {
     buttons |= pressed;
     dly_tsk(10000);

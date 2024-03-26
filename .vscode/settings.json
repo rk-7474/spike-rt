@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "motor.h": "c",
+        "button.h": "c",
+        "serial.h": "c",
+        "iterator": "c"
+    }
+}

@@ -20,7 +20,7 @@ extern int errno;
 #include <kernel_cfg.h>
 #include <t_syslog.h>
 #include <syssvc/serial.h>
-#include <serial/serial.h>
+#include <serial2/serial.h>
 #include <spike/hub/system.h>
 
 #include <tlsf.h>
