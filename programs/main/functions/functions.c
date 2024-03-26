@@ -99,7 +99,7 @@ void turn_degrees(int power_a, int power_b, float target) {
     float start_angle = gyro_heading();
 
     do dly_tsk(1000); 
-    while ((start_angle < target && gyro_heading() < target) || gyro_heading() > target);
+    while ((start_angle < target && gyro_heading() < target) || (start_angle > target && gyro_heading() > target));
 
     brake_pair(motor_a, motor_b);
 }

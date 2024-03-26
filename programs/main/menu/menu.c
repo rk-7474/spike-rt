@@ -33,7 +33,6 @@ void open_menu() {
             }
         }
 
-
         hub_display_number(selected_mission);
 
     }
